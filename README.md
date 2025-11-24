@@ -1,2 +1,52 @@
 # travel-info-system
 This is a small Python project that I made to help students who travel from VIT Bhopal to Bhopal City / Railway Station. Many students struggle to find correct information about autos, cabs, and buses, so I tried to put everything in one place in a simple program.
+** Project Overview**
+
+This project is developed as part o8f the Flipped Course requirements at VIT Bhopal University. The objective is to design a simple and practical Python-based system that helps students find suitable transportation options while traveling from VIT Bhopal to Bhopal City. Students often face difficulty in finding autos, cabs, or buses for outstation travel, and this system provides quick access to transport details. To create a Python program that: -Lists autos, cabs, and buses available from VIT Bhopal. -Provides price and contact information. -Offers a search feature for quick filtering. -Displays emergency contact numbers. -Ends execution after one operation. -Shows a polite closing message.
+
+Features Implemented
+
+Auto Options Shows available auto drivers, prices, and contact numbers.
+2)Cab Options Includes cab categories like Swift, Ertiga, Omni Van, etc.
+
+Bus Options Displays charted bus routes, timings, and fares.
+4)Search Feature Users can search transportation by:
+
+Vehicle type (e.g., Swift, Ertiga) Route (e.g., ISBT) Time (e.g., 6 PM)
+
+5)Closing Message After every output, users see: "Thank you, Have a Safe Journey!"
+
+Project Structure
+
+transport_project/ │ ├── travel_info_system.py ├── transport_data.py ├── utils.py └── README.md
+
+How to Run the Project
+
+Download or clone the repository.
+Open a terminal inside the project folder.
+Run: travel_info_system.py
+Choose your desired option from the menu. Technologies / Tools Used
+The following technologies and tools were used to develop the Transportation Management System:
+
+Python Programming Language Used as the main language for building the project. Python was chosen because it is simple, beginner-friendly, and supports modular coding.
+Python Standard Libraries input() for taking user choices print() for displaying output Functions for code reusability Lists & Dictionaries for storing transport data
+Modular Programming (Python Modules)
+** Instructions for Testing (Short)**
+
+Run the program and check if all transport options appear correctly.
+Test each feature (autos, cabs, buses, emergency contacts) one by one.
+Try valid inputs and confirm correct output is shown.
+Try invalid inputs and ensure the program handles them safely.
+Check if the program runs without errors on different devices.
+Note any bugs or unusual behavior for fixing.
+Author
+
+Sancharika Ghosal B.Tech CSE (AI & ML) VIT Bhopal University
+
+Acknowledgment
+
+This project was developed as part of the Flipped Classroom coursework to apply problem-solving and Python programming skills to a real-world student transportation problem.
+
+Final Note
+
+Thank you for exploring this project! Have a safe journey! 
